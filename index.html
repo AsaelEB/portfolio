@@ -1,0 +1,278 @@
+<!-- 
+  This template was designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Site Title -->
+  <title>
+    Asael Espinoza Portfolio
+  </title>
+
+  <meta name="description" content="I some experience as a developer and data analyst.">
+  <!-- Coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Computer Science, Data Analysis, Software Development, Java, C, Python, SQL, Excel" />
+  <link rel="stylesheet" href="index.css" />
+  <!-- Added Montserrat Font form Google Fonts API -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Projects</a>
+          </li>
+          <!--<li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>-->
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Asael Espinoza</span>
+        </h1>
+        <!-- Paragraph about myself -->
+        <p>Computer Science Engineer with knowledge in Data Analysis.</p>
+        <a href="#contact" class="btn btn--blue">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Hi! 👋 I'm a computer science engineer from Mexico. 
+            </p><p>
+              Constant learning is a vital part of me, I have knowledge in many programming languages, 
+              some of them are: C, Java, Python, C#, HTML, CSS and JavaScript.
+            </p><p>
+              I also have knowledge of databases using MySQL, and data visualization tools such as Tableau, 
+              Google spreadsheets, MS Excel. And also use of Agile Methodologies.
+            </p><p>
+              You can check on my resume to know more about me, or contact me for more information.
+            </p>
+            <!-- Link to Resume -->
+            <a target="_blank" href="https://drive.google.com/file/d/1ckbsB4uU_kg-KHHzL-wK3Z-V9tHUjio3/view?usp=sharing" class="btn">My Resume</a>
+          </div>
+          <div class="about__photo-container">
+            <!-- Profile Picture -->
+            <img class="about__photo" src="./images/profile_picture.JPG" alt="ProfilePicture" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Some of my Projects</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Restaurants Competitive Analysis</h3>
+              <p>
+                Local food places data visualization. Competitive analysis to create business suggestions.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Jupyter Notebook</li>
+                <li>MS Power Point</li>
+                <li>Data Visualization</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/AsaelEB/Sprint_10_Data_Story/" target="_blank" class="link__text">
+                  GitHub Repository <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a> <!--  <span>&rarr;</span>
+                <a href="https://github.com/sbenhoff/portfolio" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project_1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Videogame Sales</h3>
+              <p>
+                Analyzed videogame sales data to improve marketing for games that can make more profit to a videogame store.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Hypothesis Test</li>
+                <li>Sales analysis</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/AsaelEB/Sprint_6_Videogames_Sales/" class="link__text">
+                  GitHub Repository <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+                <!-- <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project_2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Trending Videos Dashboard</h3>
+              <p>
+                Dashboard created to analyze a group of different videos divided by genre and regions.
+                See top trending genres on the regions and changes over the time.
+              </p>
+              <ul class="work__list">
+                <li>Tableau</li>
+                <li>Dashboards</li>
+                <li>Time analysis</li>
+                <li>Trending analysis</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://public.tableau.com/app/profile/asael.espinoza/viz/Sprint_12_Video_Trendings/Dashboard1" class="link__text">
+                  Tableau Public <img src="./images/tableau.svg" class="work__code" alt="GitHub">
+                </a>
+                <!-- <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project_3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** 
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">-->
+          <!-- Add logos of the clients or companies you'have worked with. 
+          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section>-->
+
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Contact</h2>
+      <div class="contact__info">
+        <p>
+          If you're looking for someone to help you with a website for 
+          your product or business, a good Computer Science Engineer, 
+          just want to ask any questions, if you want to give me some advice 
+          or just want to talk, feel free to say hi. 
+          We can work together and create good things, 
+          I would like to be part of your team. 😊
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:asaeleb@gmail.com" class="btn">Send an e-mail</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <!-- <li class="footer__social-link-item">
+          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
+            <img src="" alt="Twitter">
+          </a>
+        </li> -->
+        <li class="footer__social-link-item">
+          <a target="_blank" href="https://github.com/AsaelEB" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <!--<li class="footer__social-link-item">
+          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>-->
+        <li class="footer__social-link-item">
+          <a target="_blank" href="https://www.linkedin.com/in/asaeleb/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me Thanks. -->
+      <div>
+        &copy; 2024 - Based on the template by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </div>
+      <!-- <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div> -->
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
